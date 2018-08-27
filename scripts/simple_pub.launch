@@ -1,0 +1,3 @@
+<launch>
+    <node name="simple_pub_launch" pkg="test_pub" type="simple_pub.py" output="screen" />
+</launch>

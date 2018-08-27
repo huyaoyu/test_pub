@@ -1,0 +1,6 @@
+<launch>
+    <node name="simple_pub_launch" pkg="test_pub" type="simple_pub.py" output="screen" clear_params="True">
+        <param name="capability_group" value="autostart" />
+        <param name="default_cfg/autostart/delay" value="5.0" />
+    </node>
+</launch>
